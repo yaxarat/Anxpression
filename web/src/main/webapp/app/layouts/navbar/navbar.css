@@ -2,7 +2,7 @@
 Navbar
 ========================================================================== */
 .navbar-version {
-    font-size: 10px;
+    font-size: 30px;
     color: #ccc;
 }
 
@@ -75,15 +75,29 @@ Logo styles
 }
 
 .logo .logo-img {
-    height: 45px;
+    height: 90px;
     display: inline-block;
     vertical-align: middle;
-    width: 70px;
+    width: 210px;
+}
+
+.logo .logo-img2 {
+    height: 90px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 90px;
 }
 
 .logo-img {
     height: 100%;
-    background: url('../../../content/images/logo-jhipster.png') no-repeat center center;
+    background: url('../../../content/images/anthem.png') no-repeat center center;
+    background-size: contain;
+    width: 100%;
+}
+
+.logo-img2 {
+    height: 100%;
+    background: url('../../../content/images/vcu.png') no-repeat center center;
     background-size: contain;
     width: 100%;
 }

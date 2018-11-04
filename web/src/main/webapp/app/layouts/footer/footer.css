@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+body {
+    width: 100%;
+}
+
+.contentFake {
+    background-color: #333;
+    height: 770px;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0px;
+    height: 80px;
+    background-color: #1a1a1a;
+    display: block;
+}
+
+.footerContent {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}

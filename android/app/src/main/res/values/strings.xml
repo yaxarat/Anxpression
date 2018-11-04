@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">mobileApp</string>
+    <string name="greeting">Hi Kate!\nHow are you doing today?</string>
+    <string name="report_good">You are doing great!\nKeep up the great work.</string>
+    <string name="heart_rate">80rpm</string>
+    <string name="respiration_rate">30rpm</string>
+    <string name="status_great">Great!</string>
+    <string name="status_bad">Attention</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="back">Return</string>
+    <!-- Strings related to user -->
+    <string name="name">Kate Baldwin</string>
+    <string name="sex">Female</string>
+    <string name="age">19</string>
+    <string name="height">5 feet 4 inches</string>
+    <string name="weight">132lbs</string>
+    <!-- Strings related to login -->
+    <string name="prompt_username">User name</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+</resources>

@@ -1,5 +1,5 @@
 <div class="row justify-content-center">
-    <div class="col-8">
+    <div class="col-md-3">
         <div *ngIf="user">
             <h2>
                 <span>User</span> [<b>{{user.login}}</b>]
@@ -43,5 +43,9 @@
                 <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span> Back</span>
             </button>
         </div>
+    </div>
+    <div class="col-md-9">
+        <jhi-users></jhi-users>
+        <router-outlet></router-outlet>
     </div>
 </div>

@@ -18,6 +18,7 @@ import { HealthhackAccountModule } from './account/account.module';
 import { HealthhackEntityModule } from './entities/entity.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ErrorComponent } from './layouts';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
     imports: [
@@ -31,7 +32,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         HealthhackEntityModule
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
-    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent],
+    declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, FooterComponent, UsersComponent],
     providers: [
         {
             provide: HTTP_INTERCEPTORS,

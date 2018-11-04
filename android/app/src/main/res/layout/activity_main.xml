@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         android:animateLayoutChanges="true"
-        android:background="@color/colorPrimary">
+        android:background="@color/colorPrimary" android:id="@+id/alert_tv">
 
     <TextView
             android:text="@string/greeting"
@@ -28,22 +28,40 @@
             android:id="@+id/linearLayout">
         <LinearLayout
                 android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1">
+            <TextView
+                    android:text="Heart Rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_weight="1"
+                    android:textAlignment="center" android:textStyle="bold" android:textColor="@color/colorAccent"
+                    android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content" tools:layout_editor_absoluteY="114dp"
                 tools:layout_editor_absoluteX="8dp" android:id="@+id/heart_tv">
             <TextView
                     android:text="@string/heart_rate"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_weight="1"
-                    android:textStyle="bold" android:textSize="24sp" android:textColor="@android:color/white"/>
-            <TextView
-                    android:text="@string/status_great"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/textView2" android:textSize="24sp"
-                    android:textStyle="bold" android:textColor="@android:color/white"/>
+                    android:layout_height="wrap_content" android:id="@+id/heartR_tv" android:layout_weight="1"
+                    android:textStyle="bold" android:textSize="24sp" android:textColor="@android:color/white"
+                    android:textAlignment="center"/>
         </LinearLayout>
         <LinearLayout
                 android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1">
+            <TextView
+                    android:text="Respiration Rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_weight="1"
+                    android:textColor="@color/colorAccent" android:textStyle="bold" android:textAlignment="center"
+                    android:textSize="24sp"/>
+        </LinearLayout>
+        <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content" tools:layout_editor_absoluteY="114dp"
@@ -51,21 +69,16 @@
             <TextView
                     android:text="@string/respiration_rate"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_weight="1"
-                    android:textSize="24sp" android:textStyle="bold" android:textColor="@android:color/white"/>
-            <TextView
-                    android:text="@string/status_great"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/textView5" android:layout_weight="1"
-                    android:textSize="24sp" android:textStyle="bold" android:textAlignment="textEnd"
-                    android:textColor="@android:color/white"/>
+                    android:layout_height="wrap_content" android:id="@+id/lungR_tv" android:layout_weight="1"
+                    android:textSize="24sp" android:textStyle="bold" android:textColor="@android:color/white"
+                    android:textAlignment="center"/>
         </LinearLayout>
     </LinearLayout>
     <TextView
             android:text="@string/report_good"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView6" android:textSize="30sp"
+            android:id="@+id/report_et" android:textSize="30sp"
             android:textStyle="bold" android:textAlignment="center" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             android:textColor="@color/colorAccent" android:layout_marginBottom="44dp"

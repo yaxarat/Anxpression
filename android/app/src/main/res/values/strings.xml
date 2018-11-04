@@ -2,8 +2,8 @@
     <string name="app_name">mobileApp</string>
     <string name="greeting">Hi Kate!\nHow are you doing today?</string>
     <string name="report_good">You are doing great!\nKeep up the great work.</string>
-    <string name="heart_rate">80rpm</string>
-    <string name="respiration_rate">30rpm</string>
+    <string name="heart_rate">80bpm</string>
+    <string name="respiration_rate">30bpm</string>
     <string name="status_great">Great!</string>
     <string name="status_bad">Attention</string>
     <string name="title_activity_login">Sign in</string>

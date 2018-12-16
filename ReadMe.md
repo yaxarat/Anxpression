@@ -44,7 +44,7 @@ Mobile Application:
 ### Hardware
 Biometric wearable was developed in order to provide cheap and effective biometric monitoring to the patient. Audriono based hardware is responsible for sending biometric data to the google cloud platform to be used for predictive modeling.
 
-![Image](Images\b.png)
+![Image](Images/b.png)
 
 ![Image](Images\b1.png)
 ### 

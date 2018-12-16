@@ -44,24 +44,25 @@ Mobile Application:
 ### Hardware
 Biometric wearable was developed in order to provide cheap and effective biometric monitoring to the patient. Audriono based hardware is responsible for sending biometric data to the google cloud platform to be used for predictive modeling.
 
-![Image](C:\Users\yatur\Documents/medley/resources/BkM1Hc7x4_HJVGF5mgE.png)
+![Image](Images\b.png)
 
-![Image](C:\Users\yatur\Documents/medley/resources/BkM1Hc7x4_rkr7t5QeE.png)
+![Image](Images\b1.png)
 ### 
-![Image](C:\Users\yatur\Documents/medley/resources/BkM1Hc7x4_H1GUt5Qg4.png)
+![Image](Images\biom.png)
 
 ### Software
 Wide array of technology stack was utilized to provide both patients and healthcare providers with best user experience.
 
-![Image](C:\Users\yatur\Documents/medley/resources/BkM1Hc7x4_SybhF57gV.png)
+![Image](Images\t.png)
+
 GCP service utilizing Google ML Engine was responsible for continuously updating the predictive model. Model created then used to preditc panic attack was then utilized by many cloud services such as Firebase and AWS to send important information to our Mobile and Web clients.
 
 Android Mobile application:
 
-![Image](C:\Users\yatur\Documents/medley/resources/BkM1Hc7x4_ByGP597lV.png)
+![Image](Images\a.png)
 
-![Image](C:\Users\yatur\Documents/medley/resources/BkM1Hc7x4_Sk1uccQx4.png)
+![Image](Images\a1.png)
 
 Web client:
 
-![Image](C:\Users\yatur\Documents/medley/resources/BkM1Hc7x4_Hyyq5cmgV.png)
+![Image](Images\w.png)

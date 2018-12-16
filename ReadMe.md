@@ -46,23 +46,23 @@ Biometric wearable was developed in order to provide cheap and effective biometr
 
 ![Image](Images/b.png)
 
-![Image](Images\b1.png)
+![Image](Images/b1.png)
 ### 
-![Image](Images\biom.png)
+![Image](Images/biom.png)
 
 ### Software
 Wide array of technology stack was utilized to provide both patients and healthcare providers with best user experience.
 
-![Image](Images\t.png)
+![Image](Images/t.png)
 
 GCP service utilizing Google ML Engine was responsible for continuously updating the predictive model. Model created then used to preditc panic attack was then utilized by many cloud services such as Firebase and AWS to send important information to our Mobile and Web clients.
 
 Android Mobile application:
 
-![Image](Images\a.png)
+![Image](Images/a.png)
 
-![Image](Images\a1.png)
+![Image](Images/a1.png)
 
 Web client:
 
-![Image](Images\w.png)
+![Image](Images/w.png)
